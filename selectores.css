@@ -1,0 +1,16 @@
+/* Comentario
+de varias lineas*/
+/*El asterisco marca todos los elementos. Selector universal*/
+/** {
+color: red;
+}*/
+
+/*SELECTORES DE ETIQUETA*/
+h1, h2, h3{color: blue;}
+
+/*Selector descendente, dentro de elementos. Solo los parrafos dentro 
+de un div*/
+div p {font-size: 20px;
+color: black;}
+
+div p a{color: red;}
