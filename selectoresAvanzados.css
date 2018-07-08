@@ -1,0 +1,20 @@
+
+/*parrafos solo directamente en un div, hijos directos*/
+div > p{font-size: 20px;}
+
+input[type]{
+
+}
+
+input[tipe="text"]{
+
+}
+/*herencia pasa a los hijos, si no especificamos nada para los hijos*/
+body{
+	font-size: 20px;
+	color:blue;
+}
+
+article {
+	font-size: 16px;
+	color:green;}

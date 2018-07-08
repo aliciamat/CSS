@@ -14,3 +14,8 @@ div p {font-size: 20px;
 color: black;}
 
 div p a{color: red;}
+/*Utilizando clases*/
+.grande{
+	font-size: 28px;
+}
+.rojo{color: red;}
