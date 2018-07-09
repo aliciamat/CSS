@@ -1,0 +1,28 @@
+body {
+	font-size: 14px;
+}
+
+p {
+
+	font-size: 1.5em;
+}
+.contenedor_padre{font-size: 20px;}
+
+.hijo {
+width: 10em;/*así depende del tamaño del padre. Si le ponemos rem tomará el fontsize del body*/
+height: 10em;
+background: #000;
+color: #fff;
+
+}
+
+/*
+Unidades Relativas
+	px - pixel
+	em - 1 em es el tamaño de fuente que tenga su elemento padre o el más cercano
+	rem - Relativa al tamaño de la fuente especificado en el body.
+	% - porcentaje
+Unidades Absolutas
+	No se usan en diseño web : in, cm, mm;
+
+*/
