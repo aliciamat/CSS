@@ -12,7 +12,8 @@ body {
 .fondo{
 	width: 600px;
 	height: 600px;
-	background: url('img/bg.jpg') #000 ;
-	background-repeat: no-repeat;
-	background-size: 50%;
+	background-attachment: fixed;
+	background: url('img/terrazo.png') #000 ;
+	background-repeat: repeat;
+	
 }
