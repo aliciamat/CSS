@@ -1,0 +1,23 @@
+* {/*borra los margenes que trae por defecto las páginas*/
+	padding: 0;
+	margin: 0;
+}
+
+.caja{
+	background: #0353a4;
+	width: 200px;
+	height: 200px;
+	margin: 20px 30px 10px 15px;/*de uno a cuatro valores*/
+	margin-top: 20px;
+	padding: 20px;
+	border: 5px solid #000
+
+}   
+body{
+	color: white;
+	font-family: Arial;
+	line-height: 22px;
+}
+.caja p{
+	background:gray;
+}
