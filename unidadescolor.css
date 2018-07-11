@@ -1,0 +1,31 @@
+/*rgb*/
+.caja1{
+	width: 200px;
+	height: 200px;
+	background: rgb(199,73,73);
+}
+/*hexadecimal*/
+.caja2{
+	width: 200px;
+	height: 200px;
+	background: #2F887D;
+}
+
+
+
+/*rgb porcentual*/
+.caja3{
+	width: 200px;
+	height: 200px;
+	background: rgb(57%,90%,41%);
+}
+
+/* rgba, da transparencia, cuarto valor, del cero al uno, el uno es opaco*/
+.caja4{
+	width: 200px;
+	height: 200px;
+	background: rgba(199,73,73,0.7);
+}
+/*Palabras clave que podemos usar: aqua, black, blue, 
+fuchsia, gray, green, lime, maroon, navy, olive, orange, purple,
+red, silver, teal, white, yellow*/
