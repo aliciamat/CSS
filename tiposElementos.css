@@ -1,0 +1,30 @@
+body{
+	background: #f2f2f2;
+	font-family: Arial;	
+}
+
+h1,p, div{
+	background-color: #ccc;
+	padding: 10px;
+	width: 500px;
+	display: inline-block/*así nos los pone como si fueran elemento de tipo linea*/;
+}
+
+a{
+	color: #fff;
+	background-color: #000;
+
+	display: inline-block;/*estado natural en los de bloque es inline, lo cambiamos para modificar y poner padding...
+	inline-block nos lo sigue manteniendo el linea pero modificamos*/
+	padding: 10px;
+	width: ;
+	height: 50px;
+
+}
+/*Algunos elementos inline, en linea:
+	a, span, img, b, i, small, cite, code, em, strong
+	br, script, button, input, label, select, textarea.
+  Algunos elementos block, en bloque:
+    div, article, section, header, footer, aside, table,
+    p, video, ul, ol, todos los encabezados h.	*/
+
