@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #000500;
+}
+
+.galeria {
+	width: 100%;
+}
+
+.galeria img {
+	vertical-align: top; /*elimina el espaciado vertical entre imágenes*/
+	width: 400px;
+	margin: 20px;
+	padding: 5px; /*espacio entre el contenido y el borde*/
+	opacity:0.5;
+	border:1px solid #484848;
+}
+
+.galeria img:hover { /*cuando pasa el usuario el mousse*/
+	border: 1px solid #fff;
+	opacity: 1;
+}
