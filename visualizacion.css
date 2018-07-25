@@ -1,0 +1,62 @@
+body{
+	font-family: Arial, Sans-serif;
+	background-color: #f2f2f2;
+}
+
+
+a{
+	/*display: block;
+	visibility: hidden;*/
+	background: #246eb9;
+	color: #fff;
+	padding: 20px;
+	display: inline-block;
+}
+
+.caja{
+	color: #000;
+	background-color: #4fb560;
+	margin: 20px 0;
+	width: 200px;
+	height: 200px;
+	/*overflow: hidden;*/ /*oculta el contenido que se sale de la caja para que no desborde*/
+	overflow: auto; /*con scroll*/
+}
+
+.contenedor{
+	width: 600px;
+	background-color: #ccc;
+	margin: 20px 0;
+	overflow: hidden;
+}
+
+.izquierda{
+	float: left;
+}
+.derecha{
+	float: right;
+}
+/*display [inline |block |none |inline-block |flex]
+con none desaparecen los elementos y quita el espacio.
+Si queremos ocultar los elementos pero dejar el espacio que
+ocupaban usamos:
+visibility: hidden;*/
+
+.contenedor2 .caja{
+	position: relative;
+	height: 200px;
+	width: 200px;
+}
+.azul{
+	background-color: blue;
+	z-index: 10/*decide qué caja va delante, si el valor es mayor
+	que la otra irá delante*/
+
+}
+.gris{
+	background-color: grey;
+	left: 50px;
+	z-index: 9px;
+	bottom: 80px;
+
+}
