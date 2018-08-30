@@ -1,4 +1,4 @@
-p::first-letter {
+p::first-letter { /*los pseudo-elementos usan dos puntos. Este coje la primera letra*/
 	font-size: 40px;
 	font-weight: bold;
 }
@@ -8,12 +8,14 @@ p::first-line {
 	line-height: 40px;
 }
 
-*::selection {
+*::selection /*cuando seleccionamos cualquier cosa de 
+nuestra página sucede esto*/{
 	background: #f9a03f;
 	color:#fff;
 }
 
-*::-moz-selection {
+*::-moz-selection /*abreviatura de mozilla para que funcione
+en firefox*/{
 	background: #f9a03f;
 	color:#fff;
 }
@@ -24,7 +26,7 @@ p::first-line {
 	width: 150px;
 }
 
-.caja::before {
+.caja::before /*agrega un elemento antes de la caja*/{
 	content: 'Contenido Antes de la Caja';
 	display: block;
 	background: #3a3a3a;
