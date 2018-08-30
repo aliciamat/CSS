@@ -1,0 +1,43 @@
+body{
+	font-family: Arial, Sans-serif;
+}
+a{
+	background-color: #4357ad;
+	padding: 20px 30px;
+	display: inline-block;
+	font-size: 20px;
+	color: #fff;
+}
+a:hover{
+	border-color: #009ddc;
+	padding: 25px 35px;
+}
+
+a:active{
+	background-color: #000;
+}
+
+a:visited{
+	background-color: #ccc;
+}
+div{
+	width: 500px;
+
+}
+
+div p:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+div p:first-line{
+	background-color: #3a3a3a;
+	color: #fff;
+	font-size: 20px;
+}
+
+div p:nth-child(2){
+	background-color:#009ddc;
+	color:black; 
+	padding:10px;
+}
