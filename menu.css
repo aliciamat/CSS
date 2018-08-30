@@ -1,0 +1,31 @@
+body {
+	font-family: Arial, Sans-serif, Helvetica;
+	background: #e8e8e8;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+	background: #092327;
+	width: 90%;
+	max-width: 1000px;
+	margin:20px auto;/*el auto lo centra en la página*/
+}
+
+.menu li {
+	display: inline-block;/*es lo q hace que uno se ponga al lado del otro
+	, y que ocupen solo el espacio que necesitan*/
+	text-align: center;
+}
+
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+	display: block;/*aquí para poder poner el padding necesito poner display-block
+	S*/
+	padding: 20px;
+}
+
+.menu li a:hover {
+	background: #ef8354;
+}
