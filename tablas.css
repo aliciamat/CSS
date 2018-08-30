@@ -1,0 +1,25 @@
+body {font-family: Arial;}
+
+table, td, th{
+	border: 1px solid rgba(0,0,0, .2);
+	/*le ponemos el borde a la tabla y a sus elementos*/
+}
+
+table {
+	border-collapse: collapse;/*unifica los bordes para que no haya demasiados*/
+	width: 500px;
+	text-align: center;
+}
+
+th, td {
+	padding: 10px 20px; /*para que no se vea tan apretado el texto y los bordes*/
+}
+
+th { /*modificado los encabezados*/
+	background: #009ddc;
+	color: #fff;
+}
+
+tr:hover {
+	background: #e5e5e5;
+}
