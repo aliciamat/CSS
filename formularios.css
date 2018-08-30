@@ -1,0 +1,69 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;/**/
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;/*incluye el padding en el valor de width*/
+}
+
+body {
+	background: #f2f2f2;
+	font-family: Arial, Sans-serif;
+}
+
+.formulario {
+	background: #fff;
+	width: 500px;
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.formulario input {/*porque los input son de tipo linea, ahora abarcarán el 100% del contenedor y se pondrán
+	uno debajo de otro*/
+	display: block;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+	width: 100%;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	border:1px solid #226fc1;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+.formulario textarea {/*para limitar el espacio que
+	el usuario puede abrir en el textarea, y que no se salga del 
+	contenedor*/
+	min-height: 120px;
+	max-height: 300px;
+	min-width:100%;
+	max-width: 100%;
+}
+
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus,
+.formulario textarea:focus { /*focus, cuando nos posamos sobre el elemento*/
+	border: 2px solid #4fb560;
+}
+
+.formulario input[type="submit"] {/*doy estilos al botón*/
+	width: 200px;
+	margin:0 auto;
+	background: none;
+	border: 1px solid #4fb560;
+	color:#4fb560;
+	padding: 10px;
+	cursor: pointer;/*cambia de cursor normal a manita*/
+	font-size: 16px;
+	border-radius: 3px;
+}
+
+.formulario input[type="submit"]:hover {
+	background: #4fb560;
+	color: #fff;
+} 
